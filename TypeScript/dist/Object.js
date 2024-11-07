@@ -1,10 +1,10 @@
-var student = {
+"use strict";
+const student = {
     name: "Ritik",
     RegNo: "2023Ca79"
 };
 console.log(student);
-function course(_a) {
-    var name = _a.name, price = _a.price;
+function course({ name, price }) {
     console.log(name);
     console.log(price);
 }
